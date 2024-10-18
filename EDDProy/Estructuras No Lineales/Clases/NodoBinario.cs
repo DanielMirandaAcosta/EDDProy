@@ -12,7 +12,7 @@ namespace EDDemo.Estructuras_No_Lineales
         public NodoBinario Izq;
         public NodoBinario Der;
         
-        public NodoBinario(int Dato)
+        public NodoBinario(int Dato) // CAMBIO
         {
             this.Dato = Dato;
             this.Izq = null;

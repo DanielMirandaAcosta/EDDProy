@@ -36,7 +36,7 @@ namespace EDDemo.Estructuras_No_Lineales
                 Nodo = new NodoBinario(Dato);
 
                 if (Raiz == null)
-                    Raiz = Nodo;
+                    Raiz = Nodo; // CAMBIO
             }
             else if (Dato < Nodo.Dato)
                 InsertaNodo(Dato, ref Nodo.Izq);

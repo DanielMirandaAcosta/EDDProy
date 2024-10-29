@@ -443,6 +443,10 @@
     <Content Include="external\zlib1.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\images.jpeg" />
+    <None Include="Resources\unnamed.png" />
+    <None Include="Resources\d85c816.png" />
+    <None Include="Resources\tortugassss.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

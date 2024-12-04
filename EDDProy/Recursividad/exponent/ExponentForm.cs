@@ -34,10 +34,14 @@ namespace Algoritmos_recursividad
 
         private void back_Click(object sender, EventArgs e)
         {
-            Recursivity recursivity = new Recursivity();
-            recursivity.Show();
+            
 
             this.Close();
+        }
+
+        private void ExponentForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

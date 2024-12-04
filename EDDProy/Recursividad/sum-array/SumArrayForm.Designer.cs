@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Algoritmos_recursividad.Properties.Resources.unnamed;
+            this.BackgroundImage = global::EDDemo.Properties.Resources.unnamed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.back);
@@ -116,6 +116,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SumArrayForm";
             this.Text = "SumArrayForm";
+            this.Load += new System.EventHandler(this.SumArrayForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

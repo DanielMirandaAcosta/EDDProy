@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Algoritmos_recursividad.Properties.Resources.unnamed;
+            this.BackgroundImage = global::EDDemo.Properties.Resources.unnamed;
             this.ClientSize = new System.Drawing.Size(440, 462);
             this.Controls.Add(this.back);
             this.Controls.Add(this.SearchElement);
@@ -115,6 +115,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Search";
             this.Text = "Search";
+            this.Load += new System.EventHandler(this.Search_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

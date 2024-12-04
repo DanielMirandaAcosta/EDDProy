@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Algoritmos_recursividad.Properties.Resources.unnamed;
+            this.BackgroundImage = global::EDDemo.Properties.Resources.unnamed;
             this.ClientSize = new System.Drawing.Size(437, 446);
             this.Controls.Add(this.items);
             this.Controls.Add(this.label2);

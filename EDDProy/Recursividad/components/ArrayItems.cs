@@ -48,5 +48,10 @@ namespace Algoritmos_recursividad
 
             this.Close();
         }
+
+        private void ArrayItems_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

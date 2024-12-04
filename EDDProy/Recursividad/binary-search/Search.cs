@@ -50,5 +50,10 @@ namespace Algoritmos_recursividad
         {
             this.Close();
         }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

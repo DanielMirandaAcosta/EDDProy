@@ -34,8 +34,7 @@ namespace Algoritmos_recursividad
 
         private void back_Click(object sender, EventArgs e)
         {
-            Recursivity recursivity = new Recursivity();
-            recursivity.Show();
+            
 
             this.Close();
         }
@@ -43,6 +42,11 @@ namespace Algoritmos_recursividad
         private void Clear_Click(object sender, EventArgs e)
         {
             Movimientos.Items.Clear();
+        }
+
+        private void HanoiForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

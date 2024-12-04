@@ -74,9 +74,43 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estructuras Lineales\Clases\CircularesDobles.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Colas.cs" />
     <Compile Include="Estructuras Lineales\Clases\Listas.cs" />
+    <Compile Include="Estructuras Lineales\Clases\ListasCirculares.cs" />
+    <Compile Include="Estructuras Lineales\Clases\ListasDobles.cs" />
     <Compile Include="Estructuras Lineales\Clases\Nodo.cs" />
-    <Compile Include="Estructuras Lineales\Clases\Pilas.cs" />
+    <Compile Include="Estructuras Lineales\Clases\Pila.cs" />
+    <Compile Include="Estructuras Lineales\frmCircularesDobles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmCircularesDobles.Designer.cs">
+      <DependentUpon>frmCircularesDobles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmColas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmColas.Designer.cs">
+      <DependentUpon>frmColas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmListas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmListas.Designer.cs">
+      <DependentUpon>frmListas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmListasCirculares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmListasCirculares.Designer.cs">
+      <DependentUpon>frmListasCirculares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmListasDobles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estructuras Lineales\frmListasDobles.Designer.cs">
+      <DependentUpon>frmListasDobles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Estructuras No Lineales\Clases\ArbolBusqueda.cs" />
     <Compile Include="Estructuras No Lineales\frmArboles.cs">
       <SubType>Form</SubType>
@@ -106,6 +140,81 @@
     <Compile Include="Graphviz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursividad\binary-search\BinarySearch.cs" />
+    <Compile Include="Recursividad\binary-search\BinarySearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\binary-search\BinarySearchForm.Designer.cs">
+      <DependentUpon>BinarySearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\binary-search\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\binary-search\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\components\ArrayElements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\components\ArrayElements.Designer.cs">
+      <DependentUpon>ArrayElements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\components\ArrayItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\components\ArrayItems.Designer.cs">
+      <DependentUpon>ArrayItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\exponent\Exponent.cs" />
+    <Compile Include="Recursividad\exponent\ExponentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\exponent\ExponentForm.Designer.cs">
+      <DependentUpon>ExponentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\factorial\Factorial.cs" />
+    <Compile Include="Recursividad\factorial\FactorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\factorial\FactorialForm.Designer.cs">
+      <DependentUpon>FactorialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\fibonacci\Fibonacci.cs" />
+    <Compile Include="Recursividad\fibonacci\FibonacciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\fibonacci\FibonacciForm.Designer.cs">
+      <DependentUpon>FibonacciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\hanoi\Hanoi.cs" />
+    <Compile Include="Recursividad\hanoi\HanoiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\hanoi\HanoiForm.Designer.cs">
+      <DependentUpon>HanoiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursividad\sum-array\SumArray.cs" />
+    <Compile Include="Recursividad\sum-array\SumArrayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recursividad\sum-array\SumArrayForm.Designer.cs">
+      <DependentUpon>SumArrayForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Estructuras Lineales\frmCircularesDobles.resx">
+      <DependentUpon>frmCircularesDobles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\frmColas.resx">
+      <DependentUpon>frmColas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\frmListas.resx">
+      <DependentUpon>frmListas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\frmListasCirculares.resx">
+      <DependentUpon>frmListasCirculares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estructuras Lineales\frmListasDobles.resx">
+      <DependentUpon>frmListasDobles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Estructuras No Lineales\frmArboles.resx">
       <DependentUpon>frmArboles.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +237,33 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Recursividad\binary-search\BinarySearchForm.resx">
+      <DependentUpon>BinarySearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\binary-search\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\components\ArrayElements.resx">
+      <DependentUpon>ArrayElements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\components\ArrayItems.resx">
+      <DependentUpon>ArrayItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\exponent\ExponentForm.resx">
+      <DependentUpon>ExponentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\factorial\FactorialForm.resx">
+      <DependentUpon>FactorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\fibonacci\FibonacciForm.resx">
+      <DependentUpon>FibonacciForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\hanoi\HanoiForm.resx">
+      <DependentUpon>HanoiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursividad\sum-array\SumArrayForm.resx">
+      <DependentUpon>SumArrayForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="external\config6">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

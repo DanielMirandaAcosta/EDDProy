@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Algoritmos_recursividad;
+using EDDemo.Estructuras_lineales;
 using EDDemo.Estructuras_No_Lineales;
 
 namespace EDDemo
@@ -45,6 +47,83 @@ namespace EDDemo
             frmArboles mArboles = new frmArboles();
             mArboles.MdiParent = this;
             mArboles.Show();
+        }
+
+        private void pilasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            BinarySearchForm mBinarySearchForm = new BinarySearchForm();
+            mBinarySearchForm.MdiParent = this;
+            mBinarySearchForm.Show();
+        }
+
+        private void colasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ExponentForm mExponentForm = new ExponentForm();
+            mExponentForm.MdiParent = this;
+            mExponentForm.Show();
+        }
+
+        private void factorialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FactorialForm mFactorialForm = new FactorialForm();
+            mFactorialForm.MdiParent = this;
+            mFactorialForm.Show();
+        }
+
+        private void fibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FibonacciForm mFibonacciForm = new FibonacciForm();
+            mFibonacciForm.MdiParent = this;
+            mFibonacciForm.Show();
+        }
+
+        private void torreDeHanoiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HanoiForm mTorreForm = new HanoiForm();
+            mTorreForm.MdiParent = this;
+            mTorreForm.Show();
+        }
+
+        private void sumaDeArreglosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SumArrayForm mSumArrayForm = new SumArrayForm();
+            mSumArrayForm.MdiParent = this;
+            mSumArrayForm.Show();
+        }
+
+        private void colasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmColas frmColas = new frmColas();
+            frmColas.MdiParent = this;
+            frmColas.Show();
+        }
+
+        private void lIstasSimplesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListas simples = new frmListas();
+            simples.MdiParent = this;
+            simples.Show();
+        }
+
+        private void listasDoblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListasDobles frmListasDobles = new frmListasDobles();
+            frmListasDobles.MdiParent = this;
+            frmListasDobles.Show();
+        }
+
+        private void listasCircularesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListasCirculares frmListasCirculares = new frmListasCirculares();
+            frmListasCirculares.MdiParent = this;
+            frmListasCirculares.Show();
+        }
+
+        private void listasCIrcularesDoblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCircularesDobles frmCircularesDobles = new frmCircularesDobles();
+            frmCircularesDobles.MdiParent = this;
+            frmCircularesDobles.Show();
         }
     }
 }

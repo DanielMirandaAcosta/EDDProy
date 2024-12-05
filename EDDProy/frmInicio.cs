@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using Algoritmos_recursividad;
 using EDDemo.Estructuras_lineales;
 using EDDemo.Estructuras_No_Lineales;
+using EDDemo.Ordenamiento;
+using EDDemo.Busqueda;
 
 namespace EDDemo
 {
@@ -124,6 +126,53 @@ namespace EDDemo
             frmCircularesDobles frmCircularesDobles = new frmCircularesDobles();
             frmCircularesDobles.MdiParent = this;
             frmCircularesDobles.Show();
+        }
+
+        private void quickShortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQuickSort frmQuickSort = new frmQuickSort();
+            frmQuickSort.MdiParent = this;
+            frmQuickSort.Show();
+        }
+
+        private void burbujaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           frmBubble frmBubble = new frmBubble();
+            frmBubble.MdiParent = this;
+            frmBubble.Show();
+        }
+
+        private void shellSortToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmShellSort frmShellSort = new frmShellSort(); 
+            frmShellSort.MdiParent = this;
+            frmShellSort.Show();
+        }
+
+        private void radixToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRadix frmRadix = new frmRadix();
+            frmRadix.MdiParent = this;
+            frmRadix.Show();
+        }
+
+        private void busquedaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hashToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHash frmHash = new frmHash();
+            frmHash.MdiParent = this;
+            frmHash.Show();
+        }
+
+        private void binariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBinaria frmBinaria = new frmBinaria();
+            frmBinaria.MdiParent = this;
+            frmBinaria.Show();
         }
     }
 }

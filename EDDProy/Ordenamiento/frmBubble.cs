@@ -75,5 +75,10 @@ namespace EDDemo.Ordenamiento
                 lista2.Items.Add(numero); // Agrega cada número ordenado al ListBox
             }
         }
+
+        private void frmBubble_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

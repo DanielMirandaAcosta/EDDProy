@@ -2,7 +2,7 @@
 
 namespace EDDemo.Ordenamiento.Clases
 {
-    internal class BubbleSort
+    public class BubbleSort
     {
         // Método para ordenar un arreglo de enteros utilizando el algoritmo de ordenación Burbuja
         public void Ordenar(int[] datos)

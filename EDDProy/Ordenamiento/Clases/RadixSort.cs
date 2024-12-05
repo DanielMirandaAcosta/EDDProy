@@ -2,7 +2,7 @@
 
 namespace EDDemo.Ordenamiento.Clases
 {
-    internal class RadixSort
+    public class RadixSort
     {
         // Método para ordenar un arreglo de enteros utilizando el algoritmo de ordenación Radix Sort
         public void Ordenar(int[] datos)
@@ -54,21 +54,33 @@ namespace EDDemo.Ordenamiento.Clases
         private void OrdenarPorDigito(int[] datos, int exp)
         {
             int n = datos.Length;
+            int[] output = new int[n]; // Arreglo de salida
+            int count = 10; // Base 10
 
-            // Realiza la ordenación utilizando un bucle de comparación
-            for (int i = 0; i < n - 1; i++)
+            // Inicializa el conteo
+            int[] countArray = new int[count];
+            for (int i = 0; i < n; i++)
             {
-                for (int j = 0; j < n - i - 1; j++)
-                {
-                    int digitoActual = (datos[j] / exp) % 10;
-                    int digitoSiguiente = (datos[j + 1] / exp) % 10;
-
-                    if (digitoActual > digitoSiguiente)
-                    {
-                        Swap(ref datos[j], ref datos[j + 1]); // Intercambia los elementos
-                    }
-                }
+                int digit = (datos[i] / exp) % 10;
+                countArray[digit]++;
             }
+
+            // Cambia count[i] para que contenga la posición real de este dígito en output[]
+            for (int i = 1; i < count; i++)
+            {
+                countArray[i] += countArray[i - 1];
+            }
+
+            // Construye el arreglo de salida
+            for (int i = n - 1; i >= 0; i--)
+            {
+                int digit = (datos[i] / exp) % 10;
+                output[countArray[digit] - 1] = datos[i];
+                countArray[digit]--;
+            }
+
+            // Copia el arreglo de salida a datos[], para que contenga los números ordenados según el dígito actual
+            Array.Copy(output, datos, n);
         }
 
         // Método para encontrar el valor máximo en un arreglo
@@ -83,14 +95,6 @@ namespace EDDemo.Ordenamiento.Clases
                 }
             }
             return max;
-        }
-
-        // Método para intercambiar los datos de dos elementos
-        private void Swap(ref int a, ref int b)
-        {
-            int temp = a; // Guarda el dato del primer elemento
-            a = b;        // Asigna el dato del segundo elemento al primero
-            b = temp;     // Asigna el dato guardado al segundo elemento
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace EDDemo.Ordenamiento.Clases
 {
-    internal class ShellSort
+    public class ShellSort
     {
         // Método para ordenar un arreglo de enteros utilizando el algoritmo de ordenación ShellSort
         public void Ordenar(int[] datos)

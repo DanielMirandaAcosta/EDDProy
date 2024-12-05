@@ -2,7 +2,7 @@
 
 namespace EDDemo.Ordenamiento.Clases
 {
-    internal class QuickSort
+    public class QuickSort
     {
         // Método para ordenar un arreglo de enteros utilizando el algoritmo de ordenación QuickSort
         public void Ordenar(int[] datos)

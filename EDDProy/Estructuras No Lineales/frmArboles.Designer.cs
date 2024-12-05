@@ -213,7 +213,6 @@ namespace EDDemo.Estructuras_No_Lineales
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Recorridos";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lblRecorridoPreOrden
             // 
@@ -365,7 +364,6 @@ namespace EDDemo.Estructuras_No_Lineales
             this.label3.Size = new System.Drawing.Size(92, 16);
             this.label3.TabIndex = 27;
             this.label3.Text = "Eliminar Nodo";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // frmArboles
             // 

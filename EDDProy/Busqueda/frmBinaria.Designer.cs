@@ -44,24 +44,27 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(206, 213);
+            this.label4.Location = new System.Drawing.Point(300, 42);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.Size = new System.Drawing.Size(39, 16);
             this.label4.TabIndex = 102;
             this.label4.Text = "Dato:";
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Location = new System.Drawing.Point(176, 229);
+            this.txtBuscar.Location = new System.Drawing.Point(249, 75);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(100, 20);
+            this.txtBuscar.Size = new System.Drawing.Size(132, 22);
             this.txtBuscar.TabIndex = 101;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(187, 255);
+            this.btnBuscar.Location = new System.Drawing.Point(268, 111);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(100, 28);
             this.btnBuscar.TabIndex = 100;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -70,17 +73,19 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(77, 155);
+            this.label3.Location = new System.Drawing.Point(173, 196);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 13);
+            this.label3.Size = new System.Drawing.Size(35, 16);
             this.label3.TabIndex = 99;
             this.label3.Text = "Lista";
             // 
             // btnOrdenar
             // 
-            this.btnOrdenar.Location = new System.Drawing.Point(176, 145);
+            this.btnOrdenar.Location = new System.Drawing.Point(133, 143);
+            this.btnOrdenar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOrdenar.Name = "btnOrdenar";
-            this.btnOrdenar.Size = new System.Drawing.Size(88, 23);
+            this.btnOrdenar.Size = new System.Drawing.Size(117, 28);
             this.btnOrdenar.TabIndex = 98;
             this.btnOrdenar.Text = "Ordenar Datos";
             this.btnOrdenar.UseVisualStyleBackColor = true;
@@ -89,17 +94,19 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 74);
+            this.label2.Location = new System.Drawing.Point(36, 91);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.Size = new System.Drawing.Size(39, 16);
             this.label2.TabIndex = 97;
             this.label2.Text = "Dato:";
             // 
             // btnLista
             // 
-            this.btnLista.Location = new System.Drawing.Point(189, 88);
+            this.btnLista.Location = new System.Drawing.Point(133, 91);
+            this.btnLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLista.Name = "btnLista";
-            this.btnLista.Size = new System.Drawing.Size(75, 23);
+            this.btnLista.Size = new System.Drawing.Size(100, 28);
             this.btnLista.TabIndex = 96;
             this.btnLista.Text = "Crear lista";
             this.btnLista.UseVisualStyleBackColor = true;
@@ -108,23 +115,27 @@
             // listDatos
             // 
             this.listDatos.FormattingEnabled = true;
-            this.listDatos.Location = new System.Drawing.Point(19, 180);
+            this.listDatos.ItemHeight = 16;
+            this.listDatos.Location = new System.Drawing.Point(86, 230);
+            this.listDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listDatos.Name = "listDatos";
-            this.listDatos.Size = new System.Drawing.Size(137, 160);
+            this.listDatos.Size = new System.Drawing.Size(218, 196);
             this.listDatos.TabIndex = 95;
             // 
             // txtDato
             // 
-            this.txtDato.Location = new System.Drawing.Point(30, 90);
+            this.txtDato.Location = new System.Drawing.Point(40, 111);
+            this.txtDato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDato.Name = "txtDato";
-            this.txtDato.Size = new System.Drawing.Size(50, 20);
+            this.txtDato.Size = new System.Drawing.Size(65, 22);
             this.txtDato.TabIndex = 94;
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(19, 116);
+            this.btnInsertar.Location = new System.Drawing.Point(25, 143);
+            this.btnInsertar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertar.Size = new System.Drawing.Size(100, 28);
             this.btnInsertar.TabIndex = 93;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = true;
@@ -133,17 +144,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(111, 31);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 13);
+            this.label1.Size = new System.Drawing.Size(130, 16);
             this.label1.TabIndex = 92;
             this.label1.Text = "Busqueda Binaria";
             // 
             // frmBinaria
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 370);
+            this.BackgroundImage = global::EDDemo.Properties.Resources.unnamed;
+            this.ClientSize = new System.Drawing.Size(392, 455);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnBuscar);
@@ -155,6 +169,7 @@
             this.Controls.Add(this.txtDato);
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmBinaria";
             this.Text = "frmBinaria";
             this.ResumeLayout(false);

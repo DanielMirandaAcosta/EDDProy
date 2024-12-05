@@ -45,34 +45,40 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(152, 149);
+            this.label4.Location = new System.Drawing.Point(203, 183);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 13);
+            this.label4.Size = new System.Drawing.Size(97, 16);
             this.label4.TabIndex = 73;
             this.label4.Text = "Lista ordenada";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 149);
+            this.label3.Location = new System.Drawing.Point(48, 183);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.Size = new System.Drawing.Size(82, 16);
             this.label3.TabIndex = 72;
             this.label3.Text = "Lista original";
             // 
             // lista2
             // 
             this.lista2.FormattingEnabled = true;
-            this.lista2.Location = new System.Drawing.Point(147, 170);
+            this.lista2.ItemHeight = 16;
+            this.lista2.Location = new System.Drawing.Point(196, 209);
+            this.lista2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lista2.Name = "lista2";
-            this.lista2.Size = new System.Drawing.Size(87, 160);
+            this.lista2.Size = new System.Drawing.Size(115, 196);
             this.lista2.TabIndex = 71;
             // 
             // btnOrdenar
             // 
-            this.btnOrdenar.Location = new System.Drawing.Point(266, 191);
+            this.btnOrdenar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrdenar.Location = new System.Drawing.Point(153, 116);
+            this.btnOrdenar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOrdenar.Name = "btnOrdenar";
-            this.btnOrdenar.Size = new System.Drawing.Size(75, 23);
+            this.btnOrdenar.Size = new System.Drawing.Size(100, 28);
             this.btnOrdenar.TabIndex = 70;
             this.btnOrdenar.Text = "Ordenar lista";
             this.btnOrdenar.UseVisualStyleBackColor = true;
@@ -81,25 +87,28 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(251, 128);
+            this.label5.Location = new System.Drawing.Point(335, 158);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.Size = new System.Drawing.Size(0, 16);
             this.label5.TabIndex = 69;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(68, 95);
+            this.label2.Location = new System.Drawing.Point(13, 89);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.Size = new System.Drawing.Size(39, 16);
             this.label2.TabIndex = 68;
             this.label2.Text = "Dato:";
             // 
             // btnLista
             // 
-            this.btnLista.Location = new System.Drawing.Point(266, 118);
+            this.btnLista.Location = new System.Drawing.Point(153, 61);
+            this.btnLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLista.Name = "btnLista";
-            this.btnLista.Size = new System.Drawing.Size(75, 23);
+            this.btnLista.Size = new System.Drawing.Size(100, 28);
             this.btnLista.TabIndex = 67;
             this.btnLista.Text = "Crear lista";
             this.btnLista.UseVisualStyleBackColor = true;
@@ -108,23 +117,27 @@
             // lista1
             // 
             this.lista1.FormattingEnabled = true;
-            this.lista1.Location = new System.Drawing.Point(24, 170);
+            this.lista1.ItemHeight = 16;
+            this.lista1.Location = new System.Drawing.Point(32, 209);
+            this.lista1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lista1.Name = "lista1";
-            this.lista1.Size = new System.Drawing.Size(87, 160);
+            this.lista1.Size = new System.Drawing.Size(115, 196);
             this.lista1.TabIndex = 66;
             // 
             // txtDato
             // 
-            this.txtDato.Location = new System.Drawing.Point(109, 92);
+            this.txtDato.Location = new System.Drawing.Point(60, 86);
+            this.txtDato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDato.Name = "txtDato";
-            this.txtDato.Size = new System.Drawing.Size(50, 20);
+            this.txtDato.Size = new System.Drawing.Size(65, 22);
             this.txtDato.TabIndex = 65;
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(71, 118);
+            this.btnInsertar.Location = new System.Drawing.Point(25, 116);
+            this.btnInsertar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertar.Size = new System.Drawing.Size(100, 28);
             this.btnInsertar.TabIndex = 64;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = true;
@@ -133,26 +146,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(152, 44);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(29, 48);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.Size = new System.Drawing.Size(75, 16);
             this.label1.TabIndex = 63;
             this.label1.Text = "RadixSort";
             // 
             // lblTiempo
             // 
             this.lblTiempo.AutoSize = true;
-            this.lblTiempo.Location = new System.Drawing.Point(21, 346);
+            this.lblTiempo.Location = new System.Drawing.Point(28, 426);
+            this.lblTiempo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTiempo.Name = "lblTiempo";
-            this.lblTiempo.Size = new System.Drawing.Size(110, 13);
+            this.lblTiempo.Size = new System.Drawing.Size(138, 16);
             this.lblTiempo.TabIndex = 74;
             this.lblTiempo.Text = "Tiempo de Ejecucion:";
             // 
             // frmRadix
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 387);
+            this.BackgroundImage = global::EDDemo.Properties.Resources.unnamed;
+            this.ClientSize = new System.Drawing.Size(487, 476);
             this.Controls.Add(this.lblTiempo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -165,6 +182,7 @@
             this.Controls.Add(this.txtDato);
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmRadix";
             this.Text = "frmRadix";
             this.ResumeLayout(false);

@@ -45,25 +45,28 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(273, 131);
+            this.label5.Location = new System.Drawing.Point(364, 161);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.Size = new System.Drawing.Size(0, 16);
             this.label5.TabIndex = 47;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(90, 98);
+            this.label2.Location = new System.Drawing.Point(29, 85);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.Size = new System.Drawing.Size(39, 16);
             this.label2.TabIndex = 40;
             this.label2.Text = "Dato:";
             // 
             // btnLista
             // 
-            this.btnLista.Location = new System.Drawing.Point(288, 121);
+            this.btnLista.Location = new System.Drawing.Point(173, 31);
+            this.btnLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLista.Name = "btnLista";
-            this.btnLista.Size = new System.Drawing.Size(75, 23);
+            this.btnLista.Size = new System.Drawing.Size(100, 28);
             this.btnLista.TabIndex = 38;
             this.btnLista.Text = "Crear lista";
             this.btnLista.UseVisualStyleBackColor = true;
@@ -72,23 +75,27 @@
             // lista1
             // 
             this.lista1.FormattingEnabled = true;
-            this.lista1.Location = new System.Drawing.Point(46, 173);
+            this.lista1.ItemHeight = 16;
+            this.lista1.Location = new System.Drawing.Point(61, 213);
+            this.lista1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lista1.Name = "lista1";
-            this.lista1.Size = new System.Drawing.Size(87, 160);
+            this.lista1.Size = new System.Drawing.Size(115, 196);
             this.lista1.TabIndex = 37;
             // 
             // txtDato
             // 
-            this.txtDato.Location = new System.Drawing.Point(131, 95);
+            this.txtDato.Location = new System.Drawing.Point(76, 82);
+            this.txtDato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDato.Name = "txtDato";
-            this.txtDato.Size = new System.Drawing.Size(50, 20);
+            this.txtDato.Size = new System.Drawing.Size(65, 22);
             this.txtDato.TabIndex = 36;
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(93, 121);
+            this.btnInsertar.Location = new System.Drawing.Point(32, 124);
+            this.btnInsertar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertar.Size = new System.Drawing.Size(100, 28);
             this.btnInsertar.TabIndex = 35;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = true;
@@ -97,17 +104,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(159, 48);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(48, 43);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.Size = new System.Drawing.Size(84, 16);
             this.label1.TabIndex = 34;
             this.label1.Text = "BubbleSort";
             // 
             // btnOrdenar
             // 
-            this.btnOrdenar.Location = new System.Drawing.Point(288, 194);
+            this.btnOrdenar.Location = new System.Drawing.Point(173, 82);
+            this.btnOrdenar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOrdenar.Name = "btnOrdenar";
-            this.btnOrdenar.Size = new System.Drawing.Size(75, 23);
+            this.btnOrdenar.Size = new System.Drawing.Size(100, 28);
             this.btnOrdenar.TabIndex = 48;
             this.btnOrdenar.Text = "Ordenar lista";
             this.btnOrdenar.UseVisualStyleBackColor = true;
@@ -116,43 +126,49 @@
             // lista2
             // 
             this.lista2.FormattingEnabled = true;
-            this.lista2.Location = new System.Drawing.Point(169, 173);
+            this.lista2.ItemHeight = 16;
+            this.lista2.Location = new System.Drawing.Point(225, 213);
+            this.lista2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lista2.Name = "lista2";
-            this.lista2.Size = new System.Drawing.Size(87, 160);
+            this.lista2.Size = new System.Drawing.Size(115, 196);
             this.lista2.TabIndex = 49;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(58, 152);
+            this.label3.Location = new System.Drawing.Point(77, 187);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.Size = new System.Drawing.Size(82, 16);
             this.label3.TabIndex = 50;
             this.label3.Text = "Lista original";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(174, 152);
+            this.label4.Location = new System.Drawing.Point(232, 187);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 13);
+            this.label4.Size = new System.Drawing.Size(97, 16);
             this.label4.TabIndex = 51;
             this.label4.Text = "Lista ordenada";
             // 
             // lblTiempo
             // 
             this.lblTiempo.AutoSize = true;
-            this.lblTiempo.Location = new System.Drawing.Point(43, 352);
+            this.lblTiempo.Location = new System.Drawing.Point(57, 433);
+            this.lblTiempo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTiempo.Name = "lblTiempo";
-            this.lblTiempo.Size = new System.Drawing.Size(110, 13);
+            this.lblTiempo.Size = new System.Drawing.Size(138, 16);
             this.lblTiempo.TabIndex = 77;
             this.lblTiempo.Text = "Tiempo de Ejecucion:";
             // 
             // frmBubble
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 383);
+            this.BackgroundImage = global::EDDemo.Properties.Resources.unnamed;
+            this.ClientSize = new System.Drawing.Size(519, 471);
             this.Controls.Add(this.lblTiempo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -165,6 +181,7 @@
             this.Controls.Add(this.txtDato);
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmBubble";
             this.Text = "frmBubble";
             this.Load += new System.EventHandler(this.frmBubble_Load);
